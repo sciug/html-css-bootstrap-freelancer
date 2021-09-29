@@ -18,6 +18,9 @@
 .text_color_white{
     color: white;
 }
+.text_color_green{
+    color: #1abc9c;
+}
 
 
 h1,h2,h3,h4,p{
@@ -67,9 +70,19 @@ min-height: 200px;}
     border-radius: 10px;
 }
 .button:hover{
-   box-shadow: 0px 0px 10px #2c3e506c;
+   box-shadow: 0px 0px 10px #d8d8d8d8;
    color: white;
-   border: none !important; 
+   
+   transform: scale(1.1);
+}
+
+.button
+{
+    transition: all 350ms;
+}
+
+.button_color{
+    transition: all 250ms
 }
 
 .button_color{
