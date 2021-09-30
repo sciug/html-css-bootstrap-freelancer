@@ -14,7 +14,7 @@
 }
 .logo_sign{
     font-family: 'Work Sans', sans-serif;
-    font-size: 3rem;
+    font-size: 1.7rem;
     margin-left: .8rem;
 
 }
@@ -89,10 +89,10 @@ h1,h2,h3,h4,p{
 }
 
 .hero_text{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: white;
     font-weight: lighter;
-    width: 600px;
+    width: 500px;
 }
 
 
@@ -204,20 +204,30 @@ h1,h2,h3,h4,p{
  }
 
  .skewShadow{
-    text-shadow: -12px 6px #2c3e50;
+    text-shadow: 1px 1px 1px #2c3e50,
+    2px 2px 1px #2c3e50,
+    3px 3px 1px #2c3e50,
+    4px 4px 1px #2c3e50,
+    5px 5px 1px #2c3e50,
+    6px 6px 1px #2c3e50,
+    7px 7px 1px #2c3e50,
+    8px 8px 1px #2c3e50,
+    9px 9px 1px #2c3e50,
+    10px 10px 1px #2c3e50;
+                 
     transform: skew(0deg, 356deg);
      line-height: 5.2rem;
      font-family: 'Work Sans', sans-serif;
      color: white;
-     font-size: 4rem;
+     font-size: 3rem;
  }
  .skewBig{
-     font-size: 8rem;
+     font-size: 7rem;
      
  }
 
  .margin_y{
-     margin: 7rem 0;
+     margin: 3rem 0;
  }
 
  .letterspacing{
@@ -250,3 +260,6 @@ h1,h2,h3,h4,p{
     color: white;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.356);
 }
+
+
+
