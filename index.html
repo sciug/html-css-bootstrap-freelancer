@@ -11,15 +11,30 @@
 
 </head>
 <body>
-    <header class="color_bg_blue py-3">
+    <header class="color_bg_blue py-4">
         <div class="container">
-            <div class="row">
-               <div class="col py-3 d-flex justify-content-between align-items-center">
-                   <p class="logo fw-bold text-uppercase m-0 font_size_m">start bootstrap</p>
-                   <i class="fas fa-bars text-light border p-2 rounded"></i>
-
-               </div>
-            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark color_bg_blue">
+                <div class="container-fluid">
+                  <a class="navbar-brand mb-0 h1 text_color_white font_size_l fw-bolder text-uppercase" href="#">Start Bootstrap</a>
+                  <button class="navbar-toggler text_color_white border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item me-3">
+                        <a class="nav-link text_color_white text-font-size_s text-uppercase" aria-current="page" href="#">Portfolio</a>
+                      </li>
+                      <li class="nav-item me-3">
+                        <a class="nav-link text_color_white text-font-size_s text-uppercase" href="#">About</a>
+                      </li>
+                       <li class="nav-item">
+                        <a class="nav-link text_color_white text-font-size_s text-uppercase" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                      </li>
+                    </ul>
+                   
+                  </div>
+                </div>
+              </nav>
         </div>
         
     </header>
@@ -32,7 +47,7 @@
                     <div class="circle">
                         <img src="./img/avatar.svg" alt="avatar">
                     </div>
-                    <h1 class="mt-2 font_size_big text-uppercase text-center">start bootstrap</h1>
+                    <h1 class="mt-2 font_size_xl text-uppercase text-center">start bootstrap</h1>
                     <div class="star d-flex justify-content-between align-items-center mt-3">
                         <div class="bar rounded color_bg_white"></div>
                         <i class="fas fa-star text-white font_size_m mx-2"></i>
@@ -43,7 +58,7 @@
             </div>
         </div>
         
-        <h2 class="text-uppercase text_color text-center mt-5">portfolio</h2>
+        <h2 class="text-uppercase text_color text-center mt-5 font_size_big">portfolio</h2>
         <div class="star d-flex justify-content-center align-items-center mt-3">
             <div class="bar rounded color_bg_blue"></div>
             <i class="fas fa-star text_color font_size_m mx-2"></i>
@@ -86,18 +101,18 @@
 
         <div class="container-fluid color_bg_green mt-5 pb-5">
 
-            <h2 class="text-uppercase text-center pt-5">about</h2>
+            <h2 class="text-uppercase text-center pt-5 font_size_big">about</h2>
             <div class="star d-flex justify-content-center align-items-center mt-3">
                 <div class="bar rounded color_bg_white"></div>
                 <i class="fas fa-star text_color_white font_size_m mx-2"></i>
                 <div class="bar rounded color_bg_white"></div>
             </div>
 
-            <div class="row row-cols-1 row-cols-sm-2 py-5">
-                <div class="col col-sm-4 offset-sm-2 text-center text-sm-start text-font-size">
+            <div class="row row-cols-1 row-cols-md-2 py-5">
+                <div class="col col-md-4 offset-md-2 text-center text-md-start text-font-size">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio at odit distinctio optio corrupti, reprehenderit exercitationem eaque dolores labore aperiam mollitia, delectus harum repellat voluptates est? Fuga eveniet mollitia earum!</p>
                 </div>
-                <div class="col col-sm-4 text-center text-sm-start text-font-size">
+                <div class="col col-md-4 text-center text-md-start text-font-size">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio at odit distinctio optio corrupti, reprehenderit exercitationem eaque dolores labore aperiam mollitia, delectus harum repellat voluptates est? Fuga eveniet mollitia earum!</p>
                 </div>
             </div>
@@ -110,7 +125,7 @@
         </div>
 
 
-        <h2 class="text-uppercase text_color text-center mt-5">contact me</h2>
+        <h2 class="text-uppercase text_color text-center mt-5 font_size_big">contact me</h2>
         <div class="star d-flex justify-content-center align-items-center mt-3">
             <div class="bar rounded color_bg_blue"></div>
             <i class="fas fa-star text_color font_size_m mx-2"></i>
@@ -119,7 +134,7 @@
 
         <div class="container">
             <div class="row py-5">
-                <div class="col col-sm-8 offset-sm-2">
+                <div class="col col-lg-8 offset-lg-2">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item text_color_light mb-3 text-font-size">Name</li>
                         <li class="list-group-item text_color_light mb-3 text-font-size">Email address</li>
@@ -142,8 +157,8 @@
 
     <footer>
         <div class="container-fluid color_bg_blueLight mt-5 pb-5">
-            <div class="row row-cols-1 row-cols-sm-3 gy-5">
-                <div class="col col-sm-3 offset-sm-1">
+            <div class="row row-cols-1 row-cols-lg-3 gy-5">
+                <div class="col col-lg-3 offset-lg-1">
                     <div class="d-flex flex-column text-center justify-content-center">
                         <h4 class="text-uppercase text-center">location</h4>
                         <p class="text-font-size">Lulorem mollitia aperiam beatae veniam accusamusriores reiciendis nemo?</p>
@@ -162,7 +177,7 @@
                         
                     </div>
                 </div>
-                <div class="col col-sm-3"> 
+                <div class="col col-lg-3"> 
                     <div class="d-flex flex-column text-center justify-content-center">
                         <h4 class="text-uppercase text-center">about freelancer</h4>
                         <p class="text-font-size">Lulorem mollitia aperiam beatae riores <span class="text_color_green">veniam accusamusriores</span> reiciendis nemo?</p>
