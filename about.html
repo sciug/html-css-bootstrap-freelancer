@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;300;400;500;800;900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -74,25 +77,39 @@
             </div>
         </div>
         
-        <h2 class="text-uppercase text_color text-center mt-5 font_size_big">portfolio</h2>
+        <h2 class="text-uppercase text_color text-center mt-5 font_size_big skewShadow">portfolio</h2>
         <div class="star d-flex justify-content-center align-items-center mt-3">
             <div class="bar rounded color_bg_blue"></div>
             <i class="fas fa-star text_color font_size_m mx-2"></i>
             <div class="bar rounded color_bg_blue"></div>
         </div>
         <div class="container mt-5">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 gx-5 gy-5">
-                <div class="col">
+            <div class="row row-cols-1 gx-5 gy-5">
+                <div class="col d-flex">
                     <div class="bg_colored position-relative">
                         <img  class="rounded_more" src="./img/cabin.png" alt="cabin">
                         <i class="fas fa-plus position-absolute top-50 start-50 translate-middle text_color_white font_size_big"></i>
                     </div>
+                    <div class="artwork_info">
+                        <h3 class="text_color_green fw-bold text-uppercase">Heading</h3>
+                        <h5 class="text_color_green fw-light text-uppercase mt-3">testo</h5>
+                        <p class="text_color_light mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur nulla saepe aliquam aut adipisci, quibusdam natus rem deserunt reprehenderit facere placeat culpa omnis provident modi excepturi molestias alias quas.orem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur nulla saepe aliquam aut adipisci, quibusdam natus rem deserunt reprehenderit facere placeat culpa omnis provident modi excepturi molestias alias quas.orem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, consequuntur nulla saepe aliquam aut adipisci, quibusdam natus rem deserunt reprehenderit facere placeat culpa omnis provident modi excepturi molestias alias quas.</p>
+                    </div>
+                    
                 </div>
                 <div class="col"> 
-                    <div class="bg_colored position-relative">
-                        <img  class="rounded_more" src="./img/cake.png" alt="cabin">
-                        <i class="fas fa-plus position-absolute top-50 start-50 translate-middle text_color_white font_size_big"></i>
+                    <div class="row row-cols-2 gx-5 nested_row">
+                        <div class="col bg_colored position-relative">
+                            <img  class="rounded_more" src="./img/cake.png" alt="cabin">
+                            <i class="fas fa-plus position-absolute top-50 start-50 translate-middle text_color_white font_size_big"></i>
+                        </div>
+                        <div class="col bg_colored position-relative">
+                            <img  class="rounded_more" src="./img/circus.png" alt="cabin">
+                            <i class="fas fa-plus position-absolute top-50 start-50 translate-middle text_color_white font_size_big"></i>
+                        </div>
+                        
                     </div>
+                    
                 </div>
                 <div class="col"> 
                     <div class="bg_colored position-relative">
@@ -123,7 +140,7 @@
 
         <div class="container-fluid color_bg_green mt-5 pb-5">
 
-            <h2 class="text-uppercase text-center pt-5 font_size_big">about</h2>
+            <h2 class="text-uppercase text-center pt-5 font_size_big skewShadow">about</h2>
             <div class="star d-flex justify-content-center align-items-center mt-3">
                 <div class="bar rounded color_bg_white"></div>
                 <i class="fas fa-star text_color_white font_size_m mx-2"></i>
@@ -213,7 +230,7 @@
         <div class="container-fluid color_bg_blue">
             <div class="row py-5">
                 <div class="col text-center">
-                    <p class="text-font-size">copyright mywebsite 2021</p>
+                    <p class="text-font-size text-muted">copyright mywebsite 2021</p>
                 </div>
            
             </div>
