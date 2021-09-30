@@ -4,6 +4,10 @@
 
 .color_bg_green{background-color: #1abc9c;}
 
+
+.color_bg_green_gradient{background:linear-gradient(360deg, #3a546d79 0%, #1abc9c 100% );
+    background-color: #1abc9c;}
+
 .color_bg_blueLight{background-color: #3a546d;}
 
 .text_color{
