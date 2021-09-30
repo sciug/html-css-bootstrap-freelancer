@@ -164,3 +164,50 @@ h1,h2,h3,h4,p{
  }
 
  
+ .padding_bottom{
+     padding-bottom: 10rem;
+ }
+
+ .skewShadow{
+    text-shadow: -12px 6px #2c3e50;
+    transform: skew(0deg, 356deg);
+     line-height: 7.3rem;
+ }
+ .skewBig{
+     font-size: 8rem;
+ }
+
+ .margin_y{
+     margin: 7rem 0;
+ }
+
+ .letterspacing{
+     letter-spacing: .5px;
+ }
+
+
+ .bottone{
+     color: white;
+     background-color: #2c3e50;
+     font-size: .9rem;
+     padding: .6rem 3rem;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     text-decoration: none;
+     border-radius: 50px;
+ }
+.bottone:hover{
+    color: white;
+    box-shadow: 0px 0px 10px #31313165;
+}
+
+ .bottone_sc{
+     color: white;
+     background: none;
+     border: 1px solid white;
+
+ }
+ .bottone_sc:hover{
+    color: white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.479);
+}
